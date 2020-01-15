@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Title from '../Title';
-import { GiFemaleLegs, GiCigarette, GiPagoda } from 'react-icons/gi';
+import { GiFemaleLegs, GiCigarette } from 'react-icons/gi';
 import { IoMdBeer } from 'react-icons/io';
 import pagoda from '../../images/pagoda.png';
 
@@ -25,12 +25,12 @@ const Services = () => {
             {
                 icon : <img src={pagoda} alt="icon"/>,
                 title : 'Resort or Pagoda?',
-                info : <a href="https://www.facebook.com/qahatranh/" style={{textDecoration:'none', color: 'black'}}>Welcome to QaHaTranh</a>
+                info : <a href="https://www.facebook.com/qahatranh/" rel="noopener noreferrer" target="_blank" style={{textDecoration:'none', color: 'black'}}>Welcome to QaHaTranh</a>
             }
         ]
     })
     return (
-        <>
+        <div className="mt-5">
             <Title title={'Services'} />
             <div className="services-center">
                 {state.services.map((item, index) => {
@@ -43,7 +43,7 @@ const Services = () => {
                     )
                 })}
             </div>
-        </>
+        </div>
     )
 };
 
