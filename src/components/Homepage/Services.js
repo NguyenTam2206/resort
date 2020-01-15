@@ -5,7 +5,7 @@ import { IoMdBeer } from 'react-icons/io';
 import pagoda from '../../images/pagoda.png';
 
 const Services = () => {
-    const [state, setState] = useState({
+    const [state] = useState({
         services : [
             {
                 icon : <IoMdBeer />,

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import defaultBcg from '../../images/room-1.jpeg';
 import { Link } from 'react-router-dom';
 import { RoomConsumer } from '../context';
@@ -6,7 +6,7 @@ import Banner from '../Banner/Banner';
 import SCHero from '../Hero/SCHero';
 
 const SingleRoom = (props) => {
-    const [state, setState] = useState({
+    const [state] = useState({
         slug: props.match.params.slug,
         defaultBcg,
     })

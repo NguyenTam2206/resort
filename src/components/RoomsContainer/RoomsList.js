@@ -4,9 +4,9 @@ import Room from '../Room/Room';
 const RoomsList = ({rooms}) => {
     if(rooms.length === 0){
         return (
-            <div className="emty-search">
-                <h3>Unfortunately No Rooms Matched Your Search Parameters</h3>
-            </div>
+            <section className="empty-search">
+                <h3 style={{color: "orange"}}>Unfortunately No Rooms Matched Your Search Parameters</h3>
+            </section>
         )
     }
     return (

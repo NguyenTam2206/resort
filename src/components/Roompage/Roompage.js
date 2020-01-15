@@ -1,5 +1,4 @@
 import React from 'react';
-import SingleRoom from './SingleRoom';
 import Hero from '../Hero/Hero';
 import {Link} from 'react-router-dom'
 import Banner from '../Banner/Banner';

@@ -351,7 +351,7 @@
 .size-input {
   width: 40%;
   padding: 0.2rem;
-  border: 1px solid var(--mainBlack);
+  border: 1px solid black;
   border-radius: 0.3rem;
   margin-right: 0.3rem;
 }
@@ -372,3 +372,9 @@
   }
 }
 /* end of rooms fitler*/
+
+.single-extra label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}

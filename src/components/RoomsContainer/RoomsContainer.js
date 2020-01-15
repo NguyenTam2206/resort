@@ -12,7 +12,6 @@ const RoomsContainer = ({value}) => {
     }
     return(
         <>
-            <p>Hello from RoomsContainer</p>
             <RoomsFilter rooms={rooms} />
             <RoomsList rooms={sortedRooms} />
         </>
